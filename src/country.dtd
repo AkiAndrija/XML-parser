@@ -1,0 +1,8 @@
+<!ELEMENT root (country)+>
+
+        <!ELEMENT country (name, capital, description)>
+        <!ATTLIST country countryCode CDATA #REQUIRED >
+
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT capital (#PCDATA)>
+        <!ELEMENT description (#PCDATA)>
